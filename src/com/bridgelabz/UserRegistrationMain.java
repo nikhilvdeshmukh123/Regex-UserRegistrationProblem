@@ -1,8 +1,7 @@
 package com.bridgelabz;
 /*
  * @ author: Nikhil Deshmukh
- * As a User need to follow pre-defined Password rules.
- * Rule4 – Should have at least 1 Upper Case & 1 Number & 1 Special Character
+ * Checking For sample Emails
  */
 public class UserRegistrationMain {
 	public static void main(String[] args) {
@@ -14,5 +13,6 @@ public class UserRegistrationMain {
 		validateUserInfo.checkEmail();
 		validateUserInfo.checkMobileNumber();
 		validateUserInfo.checkPassword();
+		validateUserInfo.checkSampleEmail();
 	}
 }
